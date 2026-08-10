@@ -1,0 +1,151 @@
+~id,~label,installation_year:Int,latitude:Double,location,longitude:Double,name,num_phases:Int,operator,substation_type,transformer_capacity_kva:Double,voltage_in_kv:Int,voltage_out_v:Int
+SS001,SecondarySubstation,1998,53.4808,Manchester City Centre,-2.2426,Deansgate Substation,3,Unicorn Energy Networks,pole-mounted,256.8354462784713,33,230
+SS002,SecondarySubstation,2004,53.4808,Manchester City Centre,-2.2369,Piccadilly Gardens Substation,1,Unicorn Energy Networks,ground-mounted,785.0069440480185,33,230
+SS003,SecondarySubstation,2000,53.4668,Manchester,-2.2338,Oxford Road Substation,1,Unicorn Energy Networks,kiosk,764.9026498675639,33,400
+SS004,SecondarySubstation,1999,53.4547,"Rusholme, Manchester",-2.2206,Curry Mile Substation,3,Unicorn Energy Networks,pole-mounted,209.43168368154255,33,400
+SS005,SecondarySubstation,2008,53.4447,"Fallowfield, Manchester",-2.2206,Fallowfield Substation,1,Unicorn Energy Networks,kiosk,935.8487616242467,33,400
+SS006,SecondarySubstation,2007,53.4119,"Didsbury, Manchester",-2.2322,Didsbury Village Substation,3,Unicorn Energy Networks,ground-mounted,759.1718946019954,33,400
+SS007,SecondarySubstation,1987,53.4419,"Chorlton, Manchester",-2.2722,Chorlton Substation,3,Unicorn Energy Networks,pole-mounted,144.15411709176587,33,400
+SS008,SecondarySubstation,1994,53.4319,"Withington, Manchester",-2.2222,Withington Substation,1,Unicorn Energy Networks,kiosk,576.9353508545112,33,230
+SS009,SecondarySubstation,1997,53.4519,"Levenshulme, Manchester",-2.1922,Levenshulme Substation,3,Unicorn Energy Networks,pole-mounted,518.3591324485049,11,400
+SS010,SecondarySubstation,2005,53.4619,"Gorton, Manchester",-2.1622,Gorton Substation,3,Unicorn Energy Networks,kiosk,230.32899426120764,11,400
+SS011,SecondarySubstation,1991,53.4619,"Moss Side, Manchester",-2.2522,Moss Side Substation,1,Unicorn Energy Networks,ground-mounted,506.72233424031606,11,400
+SS012,SecondarySubstation,2006,53.4669,"Hulme, Manchester",-2.2522,Hulme Substation,1,Unicorn Energy Networks,ground-mounted,827.8664761495344,11,400
+SS013,SecondarySubstation,1981,53.4719,"Ardwick, Manchester",-2.2222,Ardwick Substation,3,Unicorn Energy Networks,ground-mounted,568.9320881947527,11,400
+SS014,SecondarySubstation,2019,53.4569,"Longsight, Manchester",-2.2022,Longsight Substation,1,Unicorn Energy Networks,pole-mounted,442.72686567350917,11,400
+SS015,SecondarySubstation,2013,53.4469,"Whalley Range, Manchester",-2.2622,Whalley Range Substation,3,Unicorn Energy Networks,kiosk,495.51479165831097,11,230
+SS016,SecondarySubstation,1985,53.4719,Salford Quays,-2.2965,Salford Quays Substation,3,Unicorn Energy Networks,pole-mounted,377.2717483445215,11,230
+SS017,SecondarySubstation,2023,53.4719,Salford Quays,-2.3015,MediaCityUK Substation,3,Unicorn Energy Networks,kiosk,457.77984759950584,33,400
+SS018,SecondarySubstation,2024,53.4669,"Ordsall, Salford",-2.2815,Ordsall Substation,1,Unicorn Energy Networks,kiosk,374.85821089072857,33,230
+SS019,SecondarySubstation,2010,53.4919,"Pendleton, Salford",-2.2915,Pendleton Substation,3,Unicorn Energy Networks,kiosk,660.2583806782301,33,230
+SS020,SecondarySubstation,1990,53.4819,"Eccles, Salford",-2.3365,Eccles Substation,3,Unicorn Energy Networks,pole-mounted,689.0275118238726,33,400
+SS021,SecondarySubstation,1990,53.5119,"Swinton, Salford",-2.3415,Swinton Substation,1,Unicorn Energy Networks,pole-mounted,396.07197315466414,33,230
+SS022,SecondarySubstation,1991,53.5219,"Walkden, Salford",-2.3965,Walkden Substation,3,Unicorn Energy Networks,ground-mounted,268.65145826509803,33,230
+SS023,SecondarySubstation,2023,53.5019,"Worsley, Salford",-2.3765,Worsley Substation,1,Unicorn Energy Networks,kiosk,237.58013016917678,33,400
+SS024,SecondarySubstation,2021,53.4419,"Irlam, Salford",-2.4265,Irlam Substation,3,Unicorn Energy Networks,kiosk,887.6331530259913,33,230
+SS025,SecondarySubstation,1994,53.4319,"Cadishead, Salford",-2.4465,Cadishead Substation,3,Unicorn Energy Networks,kiosk,703.8251806016581,11,400
+SS026,SecondarySubstation,1984,53.3747,Liverpool,-2.9175,Penny Lane Substation,3,Unicorn Energy Networks,pole-mounted,526.0091696222969,11,230
+SS027,SecondarySubstation,1982,53.4042,Liverpool City Centre,-2.9798,Bold Street Substation,1,Unicorn Energy Networks,kiosk,653.9206142177968,11,400
+SS028,SecondarySubstation,1987,53.4075,Liverpool City Centre,-2.9781,Lime Street Substation,1,Unicorn Energy Networks,pole-mounted,805.3874111286433,11,400
+SS029,SecondarySubstation,2023,53.3981,Liverpool Waterfront,-2.993,Albert Dock Substation,1,Unicorn Energy Networks,kiosk,623.2254022554998,11,400
+SS030,SecondarySubstation,2000,53.4308,"Anfield, Liverpool",-2.9608,Anfield Road Substation,3,Unicorn Energy Networks,pole-mounted,212.3228673484221,11,400
+SS031,SecondarySubstation,1993,53.4208,"Everton, Liverpool",-2.9708,Everton Substation,3,Unicorn Energy Networks,kiosk,332.30716693448215,11,400
+SS032,SecondarySubstation,2016,53.4408,"Kirkdale, Liverpool",-2.9808,Kirkdale Substation,1,Unicorn Energy Networks,ground-mounted,737.511324306634,11,400
+SS033,SecondarySubstation,1986,53.4508,"Walton, Liverpool",-2.9608,Walton Substation,3,Unicorn Energy Networks,kiosk,479.38884801599824,33,230
+SS034,SecondarySubstation,1996,53.4708,"Fazakerley, Liverpool",-2.9408,Fazakerley Substation,1,Unicorn Energy Networks,pole-mounted,345.4920356178243,33,400
+SS035,SecondarySubstation,1983,53.4508,"Croxteth, Liverpool",-2.9208,Croxteth Substation,3,Unicorn Energy Networks,kiosk,725.690625009318,33,230
+SS036,SecondarySubstation,1988,53.4108,"Kensington, Liverpool",-2.9508,Kensington Substation,3,Unicorn Energy Networks,kiosk,911.7514113352925,33,230
+SS037,SecondarySubstation,1991,53.3808,"Toxteth, Liverpool",-2.9608,Toxteth Substation,3,Unicorn Energy Networks,kiosk,755.4208751451557,33,400
+SS038,SecondarySubstation,2006,53.3608,"Aigburth, Liverpool",-2.9308,Aigburth Substation,1,Unicorn Energy Networks,ground-mounted,176.8529040502621,33,230
+SS039,SecondarySubstation,1994,53.3708,"Allerton, Liverpool",-2.9008,Allerton Substation,3,Unicorn Energy Networks,pole-mounted,717.1984830510733,33,400
+SS040,SecondarySubstation,1990,53.3808,"Woolton, Liverpool",-2.8708,Woolton Substation,3,Unicorn Energy Networks,kiosk,194.68530950195947,33,400
+SS041,SecondarySubstation,2019,53.4106,Stockport,-2.1575,Stockport Town Substation,3,Unicorn Energy Networks,ground-mounted,223.93252335180725,11,230
+SS042,SecondarySubstation,2022,53.3906,"Cheadle, Stockport",-2.2175,Cheadle Substation,3,Unicorn Energy Networks,pole-mounted,800.9808508680546,11,400
+SS043,SecondarySubstation,1991,53.3606,"Bramhall, Stockport",-2.1675,Bramhall Substation,1,Unicorn Energy Networks,pole-mounted,528.1369702936257,11,400
+SS044,SecondarySubstation,2014,53.3706,"Hazel Grove, Stockport",-2.1175,Hazel Grove Substation,1,Unicorn Energy Networks,ground-mounted,228.4915475692226,11,400
+SS045,SecondarySubstation,2012,53.4006,"Marple, Stockport",-2.0575,Marple Substation,3,Unicorn Energy Networks,pole-mounted,275.660076855596,11,400
+SS046,SecondarySubstation,2013,53.4406,"Reddish, Stockport",-2.1675,Reddish Substation,3,Unicorn Energy Networks,pole-mounted,264.72619393179355,11,400
+SS047,SecondarySubstation,1995,53.4206,"Heaton Moor, Stockport",-2.1875,Heaton Moor Substation,1,Unicorn Energy Networks,pole-mounted,141.7315719428169,11,400
+SS048,SecondarySubstation,1992,53.3806,"Gatley, Stockport",-2.2375,Gatley Substation,3,Unicorn Energy Networks,ground-mounted,719.5641035801182,11,400
+SS049,SecondarySubstation,2018,53.4306,"Bredbury, Stockport",-2.1075,Bredbury Substation,1,Unicorn Energy Networks,ground-mounted,760.914781756569,11,400
+SS050,SecondarySubstation,1989,53.4106,"Romiley, Stockport",-2.0875,Romiley Substation,3,Unicorn Energy Networks,kiosk,709.8046783220477,11,230
+SS051,SecondarySubstation,2001,53.5768,Bolton,-2.4282,Bolton Town Centre Substation,1,Unicorn Energy Networks,kiosk,589.1715805570342,11,400
+SS052,SecondarySubstation,1992,53.5468,"Farnworth, Bolton",-2.3982,Farnworth Substation,1,Unicorn Energy Networks,pole-mounted,238.63980888074636,11,400
+SS053,SecondarySubstation,2022,53.5968,"Horwich, Bolton",-2.5382,Horwich Substation,3,Unicorn Energy Networks,ground-mounted,173.5023790992165,11,400
+SS054,SecondarySubstation,1999,53.5468,"Westhoughton, Bolton",-2.5282,Westhoughton Substation,3,Unicorn Energy Networks,pole-mounted,898.4591842448981,11,230
+SS055,SecondarySubstation,2011,53.5668,"Little Lever, Bolton",-2.3682,Little Lever Substation,1,Unicorn Energy Networks,pole-mounted,546.0648350340155,11,230
+SS056,SecondarySubstation,1981,53.5968,"Breightmet, Bolton",-2.3982,Breightmet Substation,3,Unicorn Energy Networks,ground-mounted,242.61427284674093,11,230
+SS057,SecondarySubstation,1981,53.6068,"Astley Bridge, Bolton",-2.4282,Astley Bridge Substation,1,Unicorn Energy Networks,kiosk,790.3014085984428,33,400
+SS058,SecondarySubstation,2011,53.5868,"Tonge Moor, Bolton",-2.4082,Tonge Moor Substation,3,Unicorn Energy Networks,pole-mounted,565.5730332976993,33,400
+SS059,SecondarySubstation,2007,53.5968,"Halliwell, Bolton",-2.4482,Halliwell Substation,3,Unicorn Energy Networks,pole-mounted,594.1127614793883,33,400
+SS060,SecondarySubstation,1999,53.5868,"Heaton, Bolton",-2.4682,Heaton Substation,1,Unicorn Energy Networks,pole-mounted,844.9680530683249,33,230
+SS061,SecondarySubstation,2002,53.7632,Preston City Centre,-2.7044,Fishergate Substation,3,Unicorn Energy Networks,pole-mounted,375.4454699830316,33,230
+SS062,SecondarySubstation,2011,53.7732,"Deepdale, Preston",-2.6944,Deepdale Substation,3,Unicorn Energy Networks,kiosk,342.1212426262373,33,400
+SS063,SecondarySubstation,1982,53.7732,"Ashton, Preston",-2.7244,Ashton Substation,1,Unicorn Energy Networks,ground-mounted,385.3938656839009,33,230
+SS064,SecondarySubstation,2016,53.7932,"Fulwood, Preston",-2.7144,Fulwood Substation,3,Unicorn Energy Networks,ground-mounted,937.8049562606404,33,230
+SS065,SecondarySubstation,2011,53.7832,"Ribbleton, Preston",-2.6744,Ribbleton Substation,1,Unicorn Energy Networks,pole-mounted,559.9878486117113,11,400
+SS066,SecondarySubstation,2003,53.7432,"Penwortham, Preston",-2.7244,Penwortham Substation,1,Unicorn Energy Networks,ground-mounted,135.45748178640903,11,400
+SS067,SecondarySubstation,2009,53.7232,"Lostock Hall, Preston",-2.6844,Lostock Hall Substation,3,Unicorn Energy Networks,kiosk,748.0137303124804,11,230
+SS068,SecondarySubstation,1993,53.7232,"Bamber Bridge, Preston",-2.6544,Bamber Bridge Substation,1,Unicorn Energy Networks,pole-mounted,301.0959633384432,11,400
+SS069,SecondarySubstation,1998,53.7632,"Lea, Preston",-2.6644,Lea Substation,1,Unicorn Energy Networks,pole-mounted,136.88278114843214,11,230
+SS070,SecondarySubstation,1999,53.7932,"Ingol, Preston",-2.7444,Ingol Substation,1,Unicorn Energy Networks,ground-mounted,290.0541562622111,11,400
+SS071,SecondarySubstation,2003,53.39,Warrington,-2.597,Warrington Town Centre Substation,3,Unicorn Energy Networks,kiosk,209.78841070344157,11,400
+SS072,SecondarySubstation,2019,53.42,"Birchwood, Warrington",-2.527,Birchwood Substation,1,Unicorn Energy Networks,pole-mounted,300.22441864034425,11,230
+SS073,SecondarySubstation,1990,53.4,"Padgate, Warrington",-2.557,Padgate Substation,3,Unicorn Energy Networks,kiosk,194.00932403320053,33,400
+SS074,SecondarySubstation,1988,53.37,"Stockton Heath, Warrington",-2.567,Stockton Heath Substation,1,Unicorn Energy Networks,pole-mounted,931.8042809023348,33,400
+SS075,SecondarySubstation,1980,53.38,"Latchford, Warrington",-2.587,Latchford Substation,1,Unicorn Energy Networks,ground-mounted,550.562715978105,33,400
+SS076,SecondarySubstation,1994,53.39,"Orford, Warrington",-2.617,Orford Substation,1,Unicorn Energy Networks,pole-mounted,712.79772584019,33,400
+SS077,SecondarySubstation,1988,53.41,"Woolston, Warrington",-2.577,Woolston Substation,3,Unicorn Energy Networks,ground-mounted,103.1063563978365,33,230
+SS078,SecondarySubstation,1995,53.45,"Culcheth, Warrington",-2.517,Culcheth Substation,3,Unicorn Energy Networks,pole-mounted,973.1017398081783,33,400
+SS079,SecondarySubstation,1987,53.1905,Chester,-2.8908,Chester City Centre Substation,3,Unicorn Energy Networks,ground-mounted,871.7781450380494,33,230
+SS080,SecondarySubstation,1980,53.2005,"Blacon, Chester",-2.9208,Blacon Substation,3,Unicorn Energy Networks,pole-mounted,152.6066923129249,33,230
+SS081,SecondarySubstation,2020,53.1905,"Hoole, Chester",-2.8708,Hoole Substation,1,Unicorn Energy Networks,ground-mounted,538.0539231973456,11,230
+SS082,SecondarySubstation,2004,53.1805,"Boughton, Chester",-2.8808,Boughton Substation,3,Unicorn Energy Networks,ground-mounted,770.3793440405087,11,230
+SS083,SecondarySubstation,2006,53.1805,"Handbridge, Chester",-2.8908,Handbridge Substation,3,Unicorn Energy Networks,kiosk,908.0093610311717,11,230
+SS084,SecondarySubstation,2024,53.2105,"Upton, Chester",-2.8708,Upton Substation,3,Unicorn Energy Networks,ground-mounted,328.2987717810662,11,400
+SS085,SecondarySubstation,2021,53.2305,"Saughall, Chester",-2.9508,Saughall Substation,1,Unicorn Energy Networks,pole-mounted,275.7512212508774,11,230
+SS086,SecondarySubstation,1983,53.2805,"Ellesmere Port, Chester",-2.8908,Ellesmere Port Substation,1,Unicorn Energy Networks,pole-mounted,695.6436055414748,11,230
+SS087,SecondarySubstation,1988,53.8175,Blackpool,-3.0357,Blackpool Tower Substation,3,Unicorn Energy Networks,kiosk,386.9202979674141,11,230
+SS088,SecondarySubstation,1998,53.8375,"North Shore, Blackpool",-3.0457,North Shore Substation,3,Unicorn Energy Networks,ground-mounted,990.987483616769,33,400
+SS089,SecondarySubstation,2024,53.7975,"South Shore, Blackpool",-3.0257,South Shore Substation,3,Unicorn Energy Networks,kiosk,703.4609680015511,33,230
+SS090,SecondarySubstation,2009,53.8075,"Marton, Blackpool",-3.0057,Marton Substation,3,Unicorn Energy Networks,pole-mounted,784.8515706828433,33,230
+SS091,SecondarySubstation,1991,53.8575,"Bispham, Blackpool",-3.0457,Bispham Substation,3,Unicorn Energy Networks,ground-mounted,642.653675623339,33,230
+SS092,SecondarySubstation,2002,53.8275,"Layton, Blackpool",-3.0157,Layton Substation,1,Unicorn Energy Networks,kiosk,999.5907010588099,33,230
+SS093,SecondarySubstation,2011,53.8775,"Cleveleys, Blackpool",-3.0457,Cleveleys Substation,1,Unicorn Energy Networks,ground-mounted,467.9943813939039,33,230
+SS094,SecondarySubstation,2017,53.9175,"Fleetwood, Blackpool",-3.0157,Fleetwood Substation,1,Unicorn Energy Networks,pole-mounted,304.37199769964104,33,230
+SS095,SecondarySubstation,1992,54.8951,Carlisle,-2.9382,Carlisle City Centre Substation,3,Unicorn Energy Networks,kiosk,925.99466723633,33,400
+SS096,SecondarySubstation,2013,54.9051,"Stanwix, Carlisle",-2.9482,Stanwix Substation,1,Unicorn Energy Networks,kiosk,526.6206740575974,33,400
+SS097,SecondarySubstation,2003,54.8851,"Botcherby, Carlisle",-2.9182,Botcherby Substation,3,Unicorn Energy Networks,pole-mounted,669.2971333527781,33,230
+SS098,SecondarySubstation,1986,54.8751,"Harraby, Carlisle",-2.9282,Harraby Substation,3,Unicorn Energy Networks,pole-mounted,935.8729703572264,33,230
+SS099,SecondarySubstation,1985,54.8951,"Denton Holme, Carlisle",-2.9582,Denton Holme Substation,3,Unicorn Energy Networks,kiosk,705.7662071013561,33,230
+SS100,SecondarySubstation,1995,54.8751,"Upperby, Carlisle",-2.9482,Upperby Substation,1,Unicorn Energy Networks,ground-mounted,255.72807712070534,33,400
+SS101,SecondarySubstation,2002,54.9151,"Belah, Carlisle",-2.9282,Belah Substation,3,Unicorn Energy Networks,kiosk,698.4304538282764,33,230
+SS102,SecondarySubstation,1997,54.9251,"Morton, Carlisle",-2.9482,Morton Substation,1,Unicorn Energy Networks,ground-mounted,560.4526473058775,33,230
+SS103,SecondarySubstation,2015,53.5019,"Cheetham Hill, Manchester",-2.2326,Cheetham Hill Substation,1,Unicorn Energy Networks,kiosk,146.1856221783829,33,400
+SS104,SecondarySubstation,2007,53.5119,"Crumpsall, Manchester",-2.2426,Crumpsall Substation,3,Unicorn Energy Networks,kiosk,421.43154577196424,33,400
+SS105,SecondarySubstation,1983,53.5319,"Blackley, Manchester",-2.2326,Blackley Substation,1,Unicorn Energy Networks,kiosk,835.2688453525408,33,400
+SS106,SecondarySubstation,1983,53.5219,"Moston, Manchester",-2.1926,Moston Substation,1,Unicorn Energy Networks,pole-mounted,155.5605177246755,33,230
+SS107,SecondarySubstation,2013,53.5019,"Newton Heath, Manchester",-2.1726,Newton Heath Substation,1,Unicorn Energy Networks,ground-mounted,918.8814481915332,33,230
+SS108,SecondarySubstation,2010,53.4819,"Clayton, Manchester",-2.1726,Clayton Substation,3,Unicorn Energy Networks,ground-mounted,103.08805029473342,33,230
+SS109,SecondarySubstation,1989,53.4719,"Openshaw, Manchester",-2.1626,Openshaw Substation,1,Unicorn Energy Networks,kiosk,262.616675200479,33,400
+SS110,SecondarySubstation,2023,53.4619,"Belle Vue, Manchester",-2.1826,Belle Vue Substation,3,Unicorn Energy Networks,pole-mounted,844.1417357780994,33,230
+SS111,SecondarySubstation,1980,53.4519,"Rusholme, Manchester",-2.2226,Rusholme Substation,1,Unicorn Energy Networks,ground-mounted,158.51354601653463,33,400
+SS112,SecondarySubstation,2011,53.4519,"Victoria Park, Manchester",-2.2126,Victoria Park Substation,3,Unicorn Energy Networks,pole-mounted,217.4990244449815,33,400
+SS113,SecondarySubstation,2004,53.4319,"Burnage, Manchester",-2.2026,Burnage Substation,1,Unicorn Energy Networks,kiosk,281.771685943388,33,230
+SS114,SecondarySubstation,1991,53.4119,"Northenden, Manchester",-2.2622,Northenden Substation,1,Unicorn Energy Networks,pole-mounted,258.14364673256057,33,400
+SS115,SecondarySubstation,1984,53.3919,"Wythenshawe, Manchester",-2.2622,Wythenshawe Substation,3,Unicorn Energy Networks,ground-mounted,392.81274406123015,33,400
+SS116,SecondarySubstation,2017,53.4019,"Baguley, Manchester",-2.2822,Baguley Substation,1,Unicorn Energy Networks,ground-mounted,766.5486243845107,11,400
+SS117,SecondarySubstation,1985,53.4219,"Sale, Manchester",-2.3222,Sale Substation,1,Unicorn Energy Networks,ground-mounted,936.4259206390998,11,230
+SS118,SecondarySubstation,2013,53.4408,"West Derby, Liverpool",-2.9108,West Derby Substation,1,Unicorn Energy Networks,pole-mounted,891.2039821095954,11,400
+SS119,SecondarySubstation,2012,53.4608,"Norris Green, Liverpool",-2.9208,Norris Green Substation,1,Unicorn Energy Networks,pole-mounted,416.4309814132611,11,400
+SS120,SecondarySubstation,1991,53.4308,"Tuebrook, Liverpool",-2.9308,Tuebrook Substation,3,Unicorn Energy Networks,kiosk,296.28580548901664,11,400
+SS121,SecondarySubstation,2001,53.4208,"Old Swan, Liverpool",-2.9208,Old Swan Substation,3,Unicorn Energy Networks,pole-mounted,557.3617950568137,11,230
+SS122,SecondarySubstation,1993,53.4008,"Wavertree, Liverpool",-2.9208,Wavertree Substation,1,Unicorn Energy Networks,kiosk,127.8519203862717,11,400
+SS123,SecondarySubstation,2004,53.3908,"Childwall, Liverpool",-2.8908,Childwall Substation,3,Unicorn Energy Networks,kiosk,555.8383757366475,33,230
+SS124,SecondarySubstation,1994,53.3508,"Garston, Liverpool",-2.9108,Garston Substation,1,Unicorn Energy Networks,pole-mounted,548.187141429497,33,400
+SS125,SecondarySubstation,1993,53.3408,"Speke, Liverpool",-2.8608,Speke Substation,1,Unicorn Energy Networks,pole-mounted,461.91602386549295,33,400
+SS126,SecondarySubstation,2009,53.3608,"Halewood, Liverpool",-2.8408,Halewood Substation,1,Unicorn Energy Networks,pole-mounted,317.39115004185106,33,230
+SS127,SecondarySubstation,2011,53.4108,"Huyton, Liverpool",-2.8408,Huyton Substation,3,Unicorn Energy Networks,ground-mounted,431.39328995652295,33,230
+SS128,SecondarySubstation,2011,53.4308,"Prescot, Liverpool",-2.8008,Prescot Substation,3,Unicorn Energy Networks,kiosk,759.1746538206892,33,230
+SS129,SecondarySubstation,2016,53.5208,"Maghull, Liverpool",-2.9408,Maghull Substation,3,Unicorn Energy Networks,kiosk,187.96184197662205,33,230
+SS130,SecondarySubstation,1982,53.5608,"Formby, Liverpool",-3.0708,Formby Substation,3,Unicorn Energy Networks,pole-mounted,661.8092107380753,33,230
+SS131,SecondarySubstation,1995,53.4708,"Litherland, Liverpool",-2.9908,Litherland Substation,1,Unicorn Energy Networks,kiosk,888.4294602998596,33,230
+SS132,SecondarySubstation,2020,53.4608,"Seaforth, Liverpool",-3.0008,Seaforth Substation,3,Unicorn Energy Networks,pole-mounted,225.95716953056353,33,400
+SS133,SecondarySubstation,2003,53.5444,Oldham,-2.1169,Oldham Town Centre Substation,1,Unicorn Energy Networks,pole-mounted,461.2471830310706,33,400
+SS134,SecondarySubstation,2018,53.5544,"Chadderton, Oldham",-2.1469,Chadderton Substation,1,Unicorn Energy Networks,ground-mounted,985.2716478790533,33,230
+SS135,SecondarySubstation,1992,53.5644,"Royton, Oldham",-2.1269,Royton Substation,3,Unicorn Energy Networks,ground-mounted,300.1458126598927,33,400
+SS136,SecondarySubstation,2011,53.5744,"Shaw, Oldham",-2.0969,Shaw Substation,1,Unicorn Energy Networks,ground-mounted,215.89184101128114,33,230
+SS137,SecondarySubstation,2012,53.5144,"Failsworth, Oldham",-2.1569,Failsworth Substation,1,Unicorn Energy Networks,kiosk,260.4543335409044,11,230
+SS138,SecondarySubstation,2020,53.6097,Rochdale,-2.1561,Rochdale Town Centre Substation,3,Unicorn Energy Networks,ground-mounted,892.7921861331707,11,400
+SS139,SecondarySubstation,2002,53.5897,"Heywood, Rochdale",-2.2161,Heywood Substation,3,Unicorn Energy Networks,pole-mounted,675.4058388205419,11,400
+SS140,SecondarySubstation,2015,53.5497,"Middleton, Rochdale",-2.1961,Middleton Substation,1,Unicorn Energy Networks,pole-mounted,795.8352460315042,11,400
+SS141,SecondarySubstation,1998,53.6397,"Littleborough, Rochdale",-2.0961,Littleborough Substation,3,Unicorn Energy Networks,ground-mounted,208.06215200513816,11,400
+SS142,SecondarySubstation,2015,53.6097,"Milnrow, Rochdale",-2.1161,Milnrow Substation,3,Unicorn Energy Networks,kiosk,217.90767670126527,11,230
+SS143,SecondarySubstation,1992,53.545,Wigan,-2.6325,Wigan Town Centre Substation,3,Unicorn Energy Networks,pole-mounted,203.93488717570634,11,230
+SS144,SecondarySubstation,1993,53.495,"Leigh, Wigan",-2.5125,Leigh Substation,1,Unicorn Energy Networks,kiosk,612.5643907072059,33,400
+SS145,SecondarySubstation,2023,53.485,"Ashton-in-Makerfield, Wigan",-2.6425,Ashton-in-Makerfield Substation,1,Unicorn Energy Networks,pole-mounted,372.1849113854133,33,230
+SS146,SecondarySubstation,2006,53.535,"Hindley, Wigan",-2.5725,Hindley Substation,1,Unicorn Energy Networks,kiosk,684.0715149051396,33,400
+SS147,SecondarySubstation,2003,53.585,"Standish, Wigan",-2.6625,Standish Substation,1,Unicorn Energy Networks,ground-mounted,630.9131127996624,33,230
+SS148,SecondarySubstation,2008,53.5933,Bury,-2.2966,Bury Town Centre Substation,1,Unicorn Energy Networks,ground-mounted,809.0688667926881,33,230
+SS149,SecondarySubstation,2005,53.5633,"Radcliffe, Bury",-2.3266,Radcliffe Substation,3,Unicorn Energy Networks,ground-mounted,385.80112853566953,33,400
+SS150,SecondarySubstation,2016,53.5333,"Prestwich, Bury",-2.2866,Prestwich Substation,3,Unicorn Energy Networks,pole-mounted,230.74705887245526,33,230

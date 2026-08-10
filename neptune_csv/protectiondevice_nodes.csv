@@ -1,0 +1,191 @@
+~id,~label,device_type,installation_year:Int,location,operator,rating_amps:Int,voltage_kv:Double
+CB001,ProtectionDevice,circuit_breaker,2010,"Salford, Greater Manchester",Unicorn Energy Networks,1145,275.0
+CB002,ProtectionDevice,circuit_breaker,2009,"Salford, Greater Manchester",Unicorn Energy Networks,1921,275.0
+CB003,ProtectionDevice,circuit_breaker,2010,"Trafford, Greater Manchester",Unicorn Energy Networks,1637,275.0
+CB004,ProtectionDevice,circuit_breaker,2001,"Trafford, Greater Manchester",Unicorn Energy Networks,1050,275.0
+CB005,ProtectionDevice,circuit_breaker,2012,"Stockport, Greater Manchester",Unicorn Energy Networks,1316,275.0
+CB006,ProtectionDevice,circuit_breaker,1991,"Stockport, Greater Manchester",Unicorn Energy Networks,1963,275.0
+CB007,ProtectionDevice,circuit_breaker,1992,"Oldham, Greater Manchester",Unicorn Energy Networks,1214,275.0
+CB008,ProtectionDevice,circuit_breaker,2019,"Oldham, Greater Manchester",Unicorn Energy Networks,1228,275.0
+CB009,ProtectionDevice,circuit_breaker,1996,"Rochdale, Greater Manchester",Unicorn Energy Networks,1081,275.0
+CB010,ProtectionDevice,circuit_breaker,2024,"Rochdale, Greater Manchester",Unicorn Energy Networks,1895,275.0
+CB011,ProtectionDevice,circuit_breaker,2004,"Bolton, Greater Manchester",Unicorn Energy Networks,1180,275.0
+CB012,ProtectionDevice,circuit_breaker,1998,"Bolton, Greater Manchester",Unicorn Energy Networks,1709,275.0
+CB013,ProtectionDevice,circuit_breaker,1990,"Wigan, Greater Manchester",Unicorn Energy Networks,1715,275.0
+CB014,ProtectionDevice,circuit_breaker,2003,"Wigan, Greater Manchester",Unicorn Energy Networks,1638,275.0
+CB015,ProtectionDevice,circuit_breaker,2022,"Bury, Greater Manchester",Unicorn Energy Networks,1676,275.0
+CB016,ProtectionDevice,circuit_breaker,1994,"Bury, Greater Manchester",Unicorn Energy Networks,1096,275.0
+CB017,ProtectionDevice,circuit_breaker,1991,"Liverpool, Merseyside",Unicorn Energy Networks,1149,132.0
+CB018,ProtectionDevice,circuit_breaker,2021,"Liverpool, Merseyside",Unicorn Energy Networks,1498,132.0
+CB019,ProtectionDevice,circuit_breaker,2017,"Liverpool, Merseyside",Unicorn Energy Networks,1868,132.0
+CB020,ProtectionDevice,circuit_breaker,1993,"Liverpool, Merseyside",Unicorn Energy Networks,1232,132.0
+CB021,ProtectionDevice,circuit_breaker,2010,"Birkenhead, Merseyside",Unicorn Energy Networks,1057,132.0
+CB022,ProtectionDevice,circuit_breaker,2006,"Birkenhead, Merseyside",Unicorn Energy Networks,1393,132.0
+CB023,ProtectionDevice,circuit_breaker,1993,"St Helens, Merseyside",Unicorn Energy Networks,1760,132.0
+CB024,ProtectionDevice,circuit_breaker,1999,"St Helens, Merseyside",Unicorn Energy Networks,1712,132.0
+CB025,ProtectionDevice,circuit_breaker,2019,"Southport, Merseyside",Unicorn Energy Networks,1684,132.0
+CB026,ProtectionDevice,circuit_breaker,2016,"Southport, Merseyside",Unicorn Energy Networks,1757,132.0
+CB027,ProtectionDevice,circuit_breaker,2020,"Bootle, Merseyside",Unicorn Energy Networks,1838,132.0
+CB028,ProtectionDevice,circuit_breaker,2014,"Bootle, Merseyside",Unicorn Energy Networks,1765,132.0
+CB029,ProtectionDevice,circuit_breaker,1999,"Preston, Lancashire",Unicorn Energy Networks,1222,132.0
+CB030,ProtectionDevice,circuit_breaker,2019,"Preston, Lancashire",Unicorn Energy Networks,1387,132.0
+CB031,ProtectionDevice,circuit_breaker,1999,"Blackpool, Lancashire",Unicorn Energy Networks,1168,132.0
+CB032,ProtectionDevice,circuit_breaker,1994,"Blackpool, Lancashire",Unicorn Energy Networks,1002,132.0
+CB033,ProtectionDevice,circuit_breaker,2018,"Chester, Cheshire",Unicorn Energy Networks,1172,132.0
+CB034,ProtectionDevice,circuit_breaker,1991,"Chester, Cheshire",Unicorn Energy Networks,1773,132.0
+CB035,ProtectionDevice,circuit_breaker,2005,"Warrington, Cheshire",Unicorn Energy Networks,1046,275.0
+CB036,ProtectionDevice,circuit_breaker,1992,"Warrington, Cheshire",Unicorn Energy Networks,1605,275.0
+CB037,ProtectionDevice,circuit_breaker,2013,"Carlisle, Cumbria",Unicorn Energy Networks,1723,132.0
+CB038,ProtectionDevice,circuit_breaker,2003,"Carlisle, Cumbria",Unicorn Energy Networks,1169,132.0
+CB039,ProtectionDevice,circuit_breaker,2019,"Barrow-in-Furness, Cumbria",Unicorn Energy Networks,1034,132.0
+CB040,ProtectionDevice,circuit_breaker,2024,"Barrow-in-Furness, Cumbria",Unicorn Energy Networks,1836,132.0
+FUSE041,ProtectionDevice,fuse,1998,Manchester City Centre,Unicorn Energy Networks,101,33.0
+FUSE042,ProtectionDevice,fuse,2004,Manchester City Centre,Unicorn Energy Networks,400,33.0
+FUSE043,ProtectionDevice,fuse,2000,Manchester,Unicorn Energy Networks,230,33.0
+FUSE044,ProtectionDevice,fuse,1999,"Rusholme, Manchester",Unicorn Energy Networks,93,33.0
+FUSE045,ProtectionDevice,fuse,2008,"Fallowfield, Manchester",Unicorn Energy Networks,239,33.0
+FUSE046,ProtectionDevice,fuse,2007,"Didsbury, Manchester",Unicorn Energy Networks,327,33.0
+FUSE047,ProtectionDevice,fuse,1987,"Chorlton, Manchester",Unicorn Energy Networks,87,33.0
+FUSE048,ProtectionDevice,fuse,1994,"Withington, Manchester",Unicorn Energy Networks,315,33.0
+FUSE049,ProtectionDevice,fuse,1997,"Levenshulme, Manchester",Unicorn Energy Networks,364,11.0
+FUSE050,ProtectionDevice,fuse,2005,"Gorton, Manchester",Unicorn Energy Networks,53,11.0
+FUSE051,ProtectionDevice,fuse,1991,"Moss Side, Manchester",Unicorn Energy Networks,256,11.0
+FUSE052,ProtectionDevice,fuse,2006,"Hulme, Manchester",Unicorn Energy Networks,298,11.0
+FUSE053,ProtectionDevice,fuse,1981,"Ardwick, Manchester",Unicorn Energy Networks,242,11.0
+FUSE054,ProtectionDevice,fuse,2019,"Longsight, Manchester",Unicorn Energy Networks,170,11.0
+FUSE055,ProtectionDevice,fuse,2013,"Whalley Range, Manchester",Unicorn Energy Networks,142,11.0
+FUSE056,ProtectionDevice,fuse,1985,Salford Quays,Unicorn Energy Networks,121,11.0
+FUSE057,ProtectionDevice,fuse,2023,Salford Quays,Unicorn Energy Networks,129,33.0
+FUSE058,ProtectionDevice,fuse,2024,"Ordsall, Salford",Unicorn Energy Networks,186,33.0
+FUSE059,ProtectionDevice,fuse,2010,"Pendleton, Salford",Unicorn Energy Networks,285,33.0
+FUSE060,ProtectionDevice,fuse,1990,"Eccles, Salford",Unicorn Energy Networks,266,33.0
+FUSE061,ProtectionDevice,fuse,1990,"Swinton, Salford",Unicorn Energy Networks,154,33.0
+FUSE062,ProtectionDevice,fuse,1991,"Walkden, Salford",Unicorn Energy Networks,130,33.0
+FUSE063,ProtectionDevice,fuse,2023,"Worsley, Salford",Unicorn Energy Networks,56,33.0
+FUSE064,ProtectionDevice,fuse,2021,"Irlam, Salford",Unicorn Energy Networks,285,33.0
+FUSE065,ProtectionDevice,fuse,1994,"Cadishead, Salford",Unicorn Energy Networks,244,11.0
+FUSE066,ProtectionDevice,fuse,1984,Liverpool,Unicorn Energy Networks,348,11.0
+FUSE067,ProtectionDevice,fuse,1982,Liverpool City Centre,Unicorn Energy Networks,281,11.0
+FUSE068,ProtectionDevice,fuse,1987,Liverpool City Centre,Unicorn Energy Networks,220,11.0
+FUSE069,ProtectionDevice,fuse,2023,Liverpool Waterfront,Unicorn Energy Networks,253,11.0
+FUSE070,ProtectionDevice,fuse,2000,"Anfield, Liverpool",Unicorn Energy Networks,67,11.0
+FUSE071,ProtectionDevice,fuse,1993,"Everton, Liverpool",Unicorn Energy Networks,200,11.0
+FUSE072,ProtectionDevice,fuse,2016,"Kirkdale, Liverpool",Unicorn Energy Networks,384,11.0
+FUSE073,ProtectionDevice,fuse,1986,"Walton, Liverpool",Unicorn Energy Networks,113,33.0
+FUSE074,ProtectionDevice,fuse,1996,"Fazakerley, Liverpool",Unicorn Energy Networks,145,33.0
+FUSE075,ProtectionDevice,fuse,1983,"Croxteth, Liverpool",Unicorn Energy Networks,383,33.0
+FUSE076,ProtectionDevice,fuse,1988,"Kensington, Liverpool",Unicorn Energy Networks,397,33.0
+FUSE077,ProtectionDevice,fuse,1991,"Toxteth, Liverpool",Unicorn Energy Networks,304,33.0
+FUSE078,ProtectionDevice,fuse,2006,"Aigburth, Liverpool",Unicorn Energy Networks,55,33.0
+FUSE079,ProtectionDevice,fuse,1994,"Allerton, Liverpool",Unicorn Energy Networks,331,33.0
+FUSE080,ProtectionDevice,fuse,1990,"Woolton, Liverpool",Unicorn Energy Networks,99,33.0
+FUSE081,ProtectionDevice,fuse,2019,Stockport,Unicorn Energy Networks,67,11.0
+FUSE082,ProtectionDevice,fuse,2022,"Cheadle, Stockport",Unicorn Energy Networks,220,11.0
+FUSE083,ProtectionDevice,fuse,1991,"Bramhall, Stockport",Unicorn Energy Networks,242,11.0
+FUSE084,ProtectionDevice,fuse,2014,"Hazel Grove, Stockport",Unicorn Energy Networks,83,11.0
+FUSE085,ProtectionDevice,fuse,2012,"Marple, Stockport",Unicorn Energy Networks,146,11.0
+FUSE086,ProtectionDevice,fuse,2013,"Reddish, Stockport",Unicorn Energy Networks,186,11.0
+FUSE087,ProtectionDevice,fuse,1995,"Heaton Moor, Stockport",Unicorn Energy Networks,85,11.0
+FUSE088,ProtectionDevice,fuse,1992,"Gatley, Stockport",Unicorn Energy Networks,319,11.0
+FUSE089,ProtectionDevice,fuse,2018,"Bredbury, Stockport",Unicorn Energy Networks,395,11.0
+FUSE090,ProtectionDevice,fuse,1989,"Romiley, Stockport",Unicorn Energy Networks,299,11.0
+FUSE091,ProtectionDevice,fuse,2001,Bolton,Unicorn Energy Networks,253,11.0
+FUSE092,ProtectionDevice,fuse,1992,"Farnworth, Bolton",Unicorn Energy Networks,97,11.0
+FUSE093,ProtectionDevice,fuse,2022,"Horwich, Bolton",Unicorn Energy Networks,72,11.0
+FUSE094,ProtectionDevice,fuse,1999,"Westhoughton, Bolton",Unicorn Energy Networks,289,11.0
+FUSE095,ProtectionDevice,fuse,2011,"Little Lever, Bolton",Unicorn Energy Networks,259,11.0
+FUSE096,ProtectionDevice,fuse,1981,"Breightmet, Bolton",Unicorn Energy Networks,80,11.0
+FUSE097,ProtectionDevice,fuse,1981,"Astley Bridge, Bolton",Unicorn Energy Networks,336,33.0
+FUSE098,ProtectionDevice,fuse,2011,"Tonge Moor, Bolton",Unicorn Energy Networks,314,33.0
+FUSE099,ProtectionDevice,fuse,2007,"Halliwell, Bolton",Unicorn Energy Networks,322,33.0
+FUSE100,ProtectionDevice,fuse,1999,"Heaton, Bolton",Unicorn Energy Networks,284,33.0
+FUSE101,ProtectionDevice,fuse,2002,Preston City Centre,Unicorn Energy Networks,179,33.0
+FUSE102,ProtectionDevice,fuse,2011,"Deepdale, Preston",Unicorn Energy Networks,172,33.0
+FUSE103,ProtectionDevice,fuse,1982,"Ashton, Preston",Unicorn Energy Networks,109,33.0
+FUSE104,ProtectionDevice,fuse,2016,"Fulwood, Preston",Unicorn Energy Networks,311,33.0
+FUSE105,ProtectionDevice,fuse,2011,"Ribbleton, Preston",Unicorn Energy Networks,316,11.0
+FUSE106,ProtectionDevice,fuse,2003,"Penwortham, Preston",Unicorn Energy Networks,66,11.0
+FUSE107,ProtectionDevice,fuse,2009,"Lostock Hall, Preston",Unicorn Energy Networks,243,11.0
+FUSE108,ProtectionDevice,fuse,1993,"Bamber Bridge, Preston",Unicorn Energy Networks,147,11.0
+FUSE109,ProtectionDevice,fuse,1998,"Lea, Preston",Unicorn Energy Networks,52,11.0
+FUSE110,ProtectionDevice,fuse,1999,"Ingol, Preston",Unicorn Energy Networks,183,11.0
+FUSE111,ProtectionDevice,fuse,2003,Warrington,Unicorn Energy Networks,54,11.0
+FUSE112,ProtectionDevice,fuse,2019,"Birchwood, Warrington",Unicorn Energy Networks,154,11.0
+FUSE113,ProtectionDevice,fuse,1990,"Padgate, Warrington",Unicorn Energy Networks,99,33.0
+FUSE114,ProtectionDevice,fuse,1988,"Stockton Heath, Warrington",Unicorn Energy Networks,205,33.0
+FUSE115,ProtectionDevice,fuse,1980,"Latchford, Warrington",Unicorn Energy Networks,260,33.0
+FUSE116,ProtectionDevice,fuse,1994,"Orford, Warrington",Unicorn Energy Networks,244,33.0
+FUSE117,ProtectionDevice,fuse,1988,"Woolston, Warrington",Unicorn Energy Networks,90,33.0
+FUSE118,ProtectionDevice,fuse,1995,"Culcheth, Warrington",Unicorn Energy Networks,339,33.0
+FUSE119,ProtectionDevice,fuse,1987,Chester,Unicorn Energy Networks,277,33.0
+FUSE120,ProtectionDevice,fuse,1980,"Blacon, Chester",Unicorn Energy Networks,65,33.0
+FUSE121,ProtectionDevice,fuse,2020,"Hoole, Chester",Unicorn Energy Networks,201,11.0
+FUSE122,ProtectionDevice,fuse,2004,"Boughton, Chester",Unicorn Energy Networks,203,11.0
+FUSE123,ProtectionDevice,fuse,2006,"Handbridge, Chester",Unicorn Energy Networks,206,11.0
+FUSE124,ProtectionDevice,fuse,2024,"Upton, Chester",Unicorn Energy Networks,199,11.0
+FUSE125,ProtectionDevice,fuse,2021,"Saughall, Chester",Unicorn Energy Networks,191,11.0
+FUSE126,ProtectionDevice,fuse,1983,"Ellesmere Port, Chester",Unicorn Energy Networks,230,11.0
+FUSE127,ProtectionDevice,fuse,1988,Blackpool,Unicorn Energy Networks,185,11.0
+FUSE128,ProtectionDevice,fuse,1998,"North Shore, Blackpool",Unicorn Energy Networks,351,33.0
+FUSE129,ProtectionDevice,fuse,2024,"South Shore, Blackpool",Unicorn Energy Networks,305,33.0
+FUSE130,ProtectionDevice,fuse,2009,"Marton, Blackpool",Unicorn Energy Networks,264,33.0
+FUSE131,ProtectionDevice,fuse,1991,"Bispham, Blackpool",Unicorn Energy Networks,304,33.0
+FUSE132,ProtectionDevice,fuse,2002,"Layton, Blackpool",Unicorn Energy Networks,391,33.0
+FUSE133,ProtectionDevice,fuse,2011,"Cleveleys, Blackpool",Unicorn Energy Networks,135,33.0
+FUSE134,ProtectionDevice,fuse,2017,"Fleetwood, Blackpool",Unicorn Energy Networks,153,33.0
+FUSE135,ProtectionDevice,fuse,1992,Carlisle,Unicorn Energy Networks,282,33.0
+FUSE136,ProtectionDevice,fuse,2013,"Stanwix, Carlisle",Unicorn Energy Networks,325,33.0
+FUSE137,ProtectionDevice,fuse,2003,"Botcherby, Carlisle",Unicorn Energy Networks,207,33.0
+FUSE138,ProtectionDevice,fuse,1986,"Harraby, Carlisle",Unicorn Energy Networks,391,33.0
+FUSE139,ProtectionDevice,fuse,1985,"Denton Holme, Carlisle",Unicorn Energy Networks,340,33.0
+FUSE140,ProtectionDevice,fuse,1995,"Upperby, Carlisle",Unicorn Energy Networks,162,33.0
+FUSE141,ProtectionDevice,fuse,2002,"Belah, Carlisle",Unicorn Energy Networks,337,33.0
+FUSE142,ProtectionDevice,fuse,1997,"Morton, Carlisle",Unicorn Energy Networks,264,33.0
+FUSE143,ProtectionDevice,fuse,2015,"Cheetham Hill, Manchester",Unicorn Energy Networks,73,33.0
+FUSE144,ProtectionDevice,fuse,2007,"Crumpsall, Manchester",Unicorn Energy Networks,155,33.0
+FUSE145,ProtectionDevice,fuse,1983,"Blackley, Manchester",Unicorn Energy Networks,370,33.0
+FUSE146,ProtectionDevice,fuse,1983,"Moston, Manchester",Unicorn Energy Networks,93,33.0
+FUSE147,ProtectionDevice,fuse,2013,"Newton Heath, Manchester",Unicorn Energy Networks,262,33.0
+FUSE148,ProtectionDevice,fuse,2010,"Clayton, Manchester",Unicorn Energy Networks,51,33.0
+FUSE149,ProtectionDevice,fuse,1989,"Openshaw, Manchester",Unicorn Energy Networks,153,33.0
+FUSE150,ProtectionDevice,fuse,2023,"Belle Vue, Manchester",Unicorn Energy Networks,350,33.0
+FUSE151,ProtectionDevice,fuse,1980,"Rusholme, Manchester",Unicorn Energy Networks,74,33.0
+FUSE152,ProtectionDevice,fuse,2011,"Victoria Park, Manchester",Unicorn Energy Networks,79,33.0
+FUSE153,ProtectionDevice,fuse,2004,"Burnage, Manchester",Unicorn Energy Networks,100,33.0
+FUSE154,ProtectionDevice,fuse,1991,"Northenden, Manchester",Unicorn Energy Networks,147,33.0
+FUSE155,ProtectionDevice,fuse,1984,"Wythenshawe, Manchester",Unicorn Energy Networks,108,33.0
+FUSE156,ProtectionDevice,fuse,2017,"Baguley, Manchester",Unicorn Energy Networks,301,11.0
+FUSE157,ProtectionDevice,fuse,1985,"Sale, Manchester",Unicorn Energy Networks,335,11.0
+FUSE158,ProtectionDevice,fuse,2013,"West Derby, Liverpool",Unicorn Energy Networks,323,11.0
+FUSE159,ProtectionDevice,fuse,2012,"Norris Green, Liverpool",Unicorn Energy Networks,117,11.0
+FUSE160,ProtectionDevice,fuse,1991,"Tuebrook, Liverpool",Unicorn Energy Networks,186,11.0
+FUSE161,ProtectionDevice,fuse,2001,"Old Swan, Liverpool",Unicorn Energy Networks,294,11.0
+FUSE162,ProtectionDevice,fuse,1993,"Wavertree, Liverpool",Unicorn Energy Networks,78,11.0
+FUSE163,ProtectionDevice,fuse,2004,"Childwall, Liverpool",Unicorn Energy Networks,279,33.0
+FUSE164,ProtectionDevice,fuse,1994,"Garston, Liverpool",Unicorn Energy Networks,243,33.0
+FUSE165,ProtectionDevice,fuse,1993,"Speke, Liverpool",Unicorn Energy Networks,103,33.0
+FUSE166,ProtectionDevice,fuse,2009,"Halewood, Liverpool",Unicorn Energy Networks,184,33.0
+FUSE167,ProtectionDevice,fuse,2011,"Huyton, Liverpool",Unicorn Energy Networks,148,33.0
+FUSE168,ProtectionDevice,fuse,2011,"Prescot, Liverpool",Unicorn Energy Networks,369,33.0
+FUSE169,ProtectionDevice,fuse,2016,"Maghull, Liverpool",Unicorn Energy Networks,69,33.0
+FUSE170,ProtectionDevice,fuse,1982,"Formby, Liverpool",Unicorn Energy Networks,397,33.0
+FUSE171,ProtectionDevice,fuse,1995,"Litherland, Liverpool",Unicorn Energy Networks,387,33.0
+FUSE172,ProtectionDevice,fuse,2020,"Seaforth, Liverpool",Unicorn Energy Networks,60,33.0
+FUSE173,ProtectionDevice,fuse,2003,Oldham,Unicorn Energy Networks,115,33.0
+FUSE174,ProtectionDevice,fuse,2018,"Chadderton, Oldham",Unicorn Energy Networks,368,33.0
+FUSE175,ProtectionDevice,fuse,1992,"Royton, Oldham",Unicorn Energy Networks,123,33.0
+FUSE176,ProtectionDevice,fuse,2011,"Shaw, Oldham",Unicorn Energy Networks,68,33.0
+FUSE177,ProtectionDevice,fuse,2012,"Failsworth, Oldham",Unicorn Energy Networks,111,11.0
+FUSE178,ProtectionDevice,fuse,2020,Rochdale,Unicorn Energy Networks,279,11.0
+FUSE179,ProtectionDevice,fuse,2002,"Heywood, Rochdale",Unicorn Energy Networks,400,11.0
+FUSE180,ProtectionDevice,fuse,2015,"Middleton, Rochdale",Unicorn Energy Networks,228,11.0
+FUSE181,ProtectionDevice,fuse,1998,"Littleborough, Rochdale",Unicorn Energy Networks,95,11.0
+FUSE182,ProtectionDevice,fuse,2015,"Milnrow, Rochdale",Unicorn Energy Networks,65,11.0
+FUSE183,ProtectionDevice,fuse,1992,Wigan,Unicorn Energy Networks,59,11.0
+FUSE184,ProtectionDevice,fuse,1993,"Leigh, Wigan",Unicorn Energy Networks,263,33.0
+FUSE185,ProtectionDevice,fuse,2023,"Ashton-in-Makerfield, Wigan",Unicorn Energy Networks,130,33.0
+FUSE186,ProtectionDevice,fuse,2006,"Hindley, Wigan",Unicorn Energy Networks,273,33.0
+FUSE187,ProtectionDevice,fuse,2003,"Standish, Wigan",Unicorn Energy Networks,374,33.0
+FUSE188,ProtectionDevice,fuse,2008,Bury,Unicorn Energy Networks,293,33.0
+FUSE189,ProtectionDevice,fuse,2005,"Radcliffe, Bury",Unicorn Energy Networks,138,33.0
+FUSE190,ProtectionDevice,fuse,2016,"Prestwich, Bury",Unicorn Energy Networks,70,33.0

@@ -1,0 +1,5 @@
+# Ignore any local test databases or temporary files
+*.db
+*.sqlite
+*.log
+test_*.sql

@@ -1,0 +1,4 @@
+~id,~label,capacity_mva:Double,latitude:Double,location,longitude:Double,name,operator,voltage_kv:Int
+GSP001,GridSupplyPoint,500.0,53.5074,Greater Manchester,-2.2426,Manchester North GSP,Unicorn Energy Networks,275
+GSP002,GridSupplyPoint,350.0,53.4084,Merseyside,-2.9916,Liverpool GSP,Unicorn Energy Networks,132
+GSP003,GridSupplyPoint,250.0,54.8951,Cumbria,-2.9382,Carlisle GSP,Unicorn Energy Networks,132

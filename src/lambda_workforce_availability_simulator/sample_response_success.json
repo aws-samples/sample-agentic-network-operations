@@ -1,0 +1,58 @@
+{
+  "statusCode": 200,
+  "body": {
+    "total_engineers": 25,
+    "engineers_updated": 8,
+    "percentage_updated": 0.32,
+    "changes": [
+      {
+        "engineer_id": 3,
+        "employee_id": "ENG003",
+        "old_status": "available",
+        "new_status": "on-job"
+      },
+      {
+        "engineer_id": 7,
+        "employee_id": "ENG007",
+        "old_status": "on-job",
+        "new_status": "available"
+      },
+      {
+        "engineer_id": 12,
+        "employee_id": "ENG012",
+        "old_status": "available",
+        "new_status": "off-duty"
+      },
+      {
+        "engineer_id": 15,
+        "employee_id": "ENG015",
+        "old_status": "off-duty",
+        "new_status": "available"
+      },
+      {
+        "engineer_id": 18,
+        "employee_id": "ENG018",
+        "old_status": "on-job",
+        "new_status": "off-duty"
+      },
+      {
+        "engineer_id": 21,
+        "employee_id": "ENG021",
+        "old_status": "available",
+        "new_status": "on-job"
+      },
+      {
+        "engineer_id": 23,
+        "employee_id": "ENG023",
+        "old_status": "off-duty",
+        "new_status": "on-job"
+      },
+      {
+        "engineer_id": 25,
+        "employee_id": "ENG025",
+        "old_status": "on-job",
+        "new_status": "available"
+      }
+    ]
+  }
+}

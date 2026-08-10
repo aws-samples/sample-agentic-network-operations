@@ -1,0 +1,43 @@
+{
+  "statusCode": 200,
+  "body": {
+    "results": [
+      {
+        "postcode": "M4 9CW",
+        "on_psr": true
+      },
+      {
+        "postcode": "L6 7SX",
+        "on_psr": false
+      },
+      {
+        "postcode": "WA1 6KW",
+        "on_psr": false
+      },
+      {
+        "postcode": "PR1 1KQ",
+        "on_psr": false
+      },
+      {
+        "postcode": "INVALID_POSTCODE",
+        "on_psr": false
+      },
+      {
+        "postcode": "M4 2RX",
+        "on_psr": true
+      },
+      {
+        "postcode": "L3 6UY",
+        "on_psr": true
+      },
+      {
+        "postcode": "CH2 6RG",
+        "on_psr": true
+      },
+      {
+        "postcode": "BL1 2AD",
+        "on_psr": true
+      }
+    ]
+  }
+}

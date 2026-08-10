@@ -1,0 +1,80 @@
+# SAM build artifacts
+.aws-sam/
+samconfig.toml.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache
+.kiro
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets and credentials
+.env.local
+.env.production
+secrets.json
+credentials.json
+
+# AgentCore configuration should not be shared across installs in different accounts
+agentcore/neptune_mcp_runtime/.bedrock_agentcore.yaml
+agentcore/network_operations_agent/.bedrock_agentcore.yaml
+
+.bedrock_agentcore.yaml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Historical working notes and scanner exports are not part of the published demo.
+documents/archive/
+network ops scan-report.json
+
+AutogluonModels/
+node_modules/

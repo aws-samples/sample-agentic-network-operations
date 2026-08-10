@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ Network Operations Agent - Unicorn Energy Networks</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #1a5276 0%, #2e86c1 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .main-wrapper {
+            display: flex;
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            height: 90vh;
+        }
+        
+        .sidebar {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            width: 300px;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        
+        .sidebar h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .example-query {
+            background: #f5f5f5;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 13px;
+            line-height: 1.4;
+            border: 2px solid transparent;
+        }
+        
+        .example-query:hover {
+            background: linear-gradient(135deg, #1a5276 0%, #2e86c1 100%);
+            color: white;
+            transform: translateX(5px);
+            border-color: #1a5276;
+        }
+
+        .example-label {
+            display: block;
+            font-size: 11px;
+            opacity: 0.7;
+            margin-top: 6px;
+            font-style: italic;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1a5276 0%, #2e86c1 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            animation: fadeIn 0.3s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .message.user {
+            justify-content: flex-end;
+        }
+        
+        .message-content {
+            max-width: 70%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+        }
+        
+        .message.user .message-content {
+            background: linear-gradient(135deg, #1a5276 0%, #2e86c1 100%);
+            color: white;
+        }
+        
+        .message.agent .message-content {
+            background: white;
+            color: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .message.agent .message-content.streaming {
+            border-left: 3px solid #2e86c1;
+        }
+        
+        .input-container {
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .input-wrapper {
+            display: flex;
+            gap: 10px;
+        }
+        
+        #prompt-input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        
+        #prompt-input:focus {
+            border-color: #2e86c1;
+        }
+        
+        #send-btn {
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #1a5276 0%, #2e86c1 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        #send-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(26, 82, 118, 0.4);
+        }
+        
+        #send-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .loading {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #2e86c1;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+        
+        .error {
+            background: #ff4444 !important;
+            color: white !important;
+        }
+
+        .message.agent .message-content h2 {
+            font-size: 16px;
+            margin: 12px 0 6px 0;
+            color: #1a5276;
+        }
+
+        .message.agent .message-content h3 {
+            font-size: 14px;
+            margin: 10px 0 4px 0;
+            color: #2e86c1;
+        }
+
+        .message.agent .message-content p {
+            margin: 4px 0;
+        }
+
+        .message.agent .message-content ol,
+        .message.agent .message-content ul {
+            margin: 4px 0 4px 20px;
+        }
+
+        .message.agent .message-content li {
+            margin: 2px 0;
+        }
+        
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="sidebar">
+            <h2>⚡ Example Queries</h2>
+            <div class="example-query" data-query="Which primary substations are fed from the grid supply point in Cumbria?">
+                Which primary substations are fed from the grid supply point in Cumbria?
+                <span class="example-label">Graph traversal &amp; network topology</span>
+            </div>
+            <div class="example-query" data-query="The Southport and Wigan primary substations have failed. Which primary substation should I backfeed from to get the most people on the PSR register back on supply?">
+                The Southport and Wigan primary substations have failed. Which primary substation should I backfeed from to get the most people on the PSR register back on supply?
+                <span class="example-label">Multi-tool reasoning &amp; decision making</span>
+            </div>
+            <div class="example-query" data-query="There is a transformer fault at the Wigan primary substation, who do I have available to fix it?">
+                There is a transformer fault at the Wigan primary substation, who do I have available to fix it?
+                <span class="example-label">Workforce dispatch &amp; skill matching</span>
+            </div>
+            <div class="example-query" data-query="Is there any heavy rainfall due in the Warrington area over the next week?">
+                Is there any heavy rainfall due in the Warrington area over the next week?
+                <span class="example-label">Geolocation &amp; weather forecasting</span>
+            </div>
+            <div class="example-query" data-query="Will next week's weather forecast impact any substations in the North West?">
+                Will next week's weather forecast impact any substations in the North West?
+                <span class="example-label">Multi-tool chaining &amp; analysis</span>
+            </div>
+        </div>
+        
+        <div class="container">
+        <div class="header">
+            <h1>⚡ Unicorn Energy Networks - Network Operations</h1>
+            <p>AI-powered operational support for the North West England electricity distribution network</p>
+        </div>
+        
+        <div class="chat-container" id="chat-container">
+            <div class="message agent">
+                <div class="message-content">
+                    Hello! I'm your Network Operations assistant for Unicorn Energy Networks. I can help you query the distribution network topology, check weather forecasts, look up PSR customer information, and dispatch workforce. What would you like to know?
+                </div>
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="prompt-input" 
+                    placeholder="Ask about the electricity distribution network..."
+                    autocomplete="off"
+                    aria-label="Enter your question about the electricity distribution network"
+                >
+                <button id="send-btn" aria-label="Send message">Send</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <script>
+        const chatContainer = document.getElementById('chat-container');
+        const promptInput = document.getElementById('prompt-input');
+        const sendBtn = document.getElementById('send-btn');
+        const exampleQueries = document.querySelectorAll('.example-query');
+        
+        let isStreaming = false;
+        let currentMessageElement = null;
+        
+        // Add click handlers for example queries
+        exampleQueries.forEach(query => {
+            query.addEventListener('click', () => {
+                const queryText = query.getAttribute('data-query');
+                promptInput.value = queryText;
+                promptInput.focus();
+            });
+        });
+        
+        function addMessage(content, isUser = false) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user' : 'agent'}`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.textContent = content;
+            
+            messageDiv.appendChild(contentDiv);
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+            
+            return contentDiv;
+        }
+        
+        function addStreamingMessage() {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message agent';
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content streaming';
+            const loadingIndicator = document.createElement('span');
+            loadingIndicator.className = 'loading';
+            contentDiv.appendChild(loadingIndicator);
+            
+            messageDiv.appendChild(contentDiv);
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+            
+            return contentDiv;
+        }
+        
+        async function sendMessage() {
+            const prompt = promptInput.value.trim();
+            if (!prompt || isStreaming) return;
+            
+            addMessage(prompt, true);
+            promptInput.value = '';
+            
+            isStreaming = true;
+            sendBtn.disabled = true;
+            sendBtn.textContent = 'Sending...';
+            
+            currentMessageElement = addStreamingMessage();
+            
+            try {
+                const response = await fetch('/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ prompt })
+                });
+                
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    
+                    const chunk = decoder.decode(value);
+                    const lines = chunk.split('\n');
+                    
+                    for (const line of lines) {
+                        if (line.startsWith('data: ')) {
+                            const data = line.slice(6);
+                            
+                            if (data === '[DONE]') {
+                                currentMessageElement.classList.remove('streaming');
+                                continue;
+                            }
+                            
+                            try {
+                                const parsed = JSON.parse(data);
+                                
+                                if (parsed.error) {
+                                    currentMessageElement.textContent = `Error: ${parsed.error}`;
+                                    currentMessageElement.classList.add('error');
+                                } else if (parsed.text) {
+                                    currentMessageElement.textContent = parsed.text;
+                                    chatContainer.scrollTop = chatContainer.scrollHeight;
+                                }
+                            } catch (e) {
+                                // Skip invalid JSON
+                            }
+                        }
+                    }
+                }
+                
+            } catch (error) {
+                currentMessageElement.textContent = `Error: ${error.message}`;
+                currentMessageElement.classList.add('error');
+            } finally {
+                isStreaming = false;
+                sendBtn.disabled = false;
+                sendBtn.textContent = 'Send';
+                currentMessageElement = null;
+            }
+        }
+        
+        sendBtn.addEventListener('click', sendMessage);
+        
+        promptInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+        
+        // Focus input on load
+        promptInput.focus();
+    </script>
+</body>
+</html>

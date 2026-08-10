@@ -1,0 +1,5 @@
+{
+  "status": "error",
+  "error_type": "engineer_not_available",
+  "message": "Engineer ENG001 is currently on-job and cannot be assigned"
+}

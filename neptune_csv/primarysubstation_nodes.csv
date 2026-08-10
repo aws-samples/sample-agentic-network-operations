@@ -1,0 +1,21 @@
+~id,~label,capacity_mva:Double,has_circuit_breaker:Bool,has_switchgear:Bool,latitude:Double,location,longitude:Double,name,num_transformers:Int,operator,voltage_in_kv:Int,voltage_out_kv:Int
+PS001,PrimarySubstation,39.63736214493859,true,true,53.4719,"Salford, Greater Manchester",-2.2965,Salford Quays Primary,4,Unicorn Energy Networks,275,33
+PS002,PrimarySubstation,55.539078583838915,true,true,53.4675,"Trafford, Greater Manchester",-2.3089,Trafford Park Primary,2,Unicorn Energy Networks,275,11
+PS003,PrimarySubstation,38.14296542753654,true,true,53.4106,"Stockport, Greater Manchester",-2.1575,Stockport Primary,3,Unicorn Energy Networks,275,33
+PS004,PrimarySubstation,31.647714411645925,true,true,53.5444,"Oldham, Greater Manchester",-2.1169,Oldham Primary,2,Unicorn Energy Networks,275,11
+PS005,PrimarySubstation,70.18874387352639,true,true,53.6097,"Rochdale, Greater Manchester",-2.1561,Rochdale Primary,4,Unicorn Energy Networks,275,33
+PS006,PrimarySubstation,32.5373738986888,true,true,53.5768,"Bolton, Greater Manchester",-2.4282,Bolton Primary,3,Unicorn Energy Networks,275,11
+PS007,PrimarySubstation,68.68634582481266,true,true,53.545,"Wigan, Greater Manchester",-2.6325,Wigan Primary,3,Unicorn Energy Networks,275,11
+PS008,PrimarySubstation,49.75122477490631,true,true,53.5933,"Bury, Greater Manchester",-2.2966,Bury Primary,4,Unicorn Energy Networks,275,33
+PS009,PrimarySubstation,51.22956826462432,true,true,53.4308,"Liverpool, Merseyside",-2.9608,Anfield Primary,3,Unicorn Energy Networks,132,11
+PS010,PrimarySubstation,46.6461091175227,true,true,53.4014,"Liverpool, Merseyside",-2.993,Liverpool Docks Primary,2,Unicorn Energy Networks,132,33
+PS011,PrimarySubstation,72.61309483446873,true,true,53.3932,"Birkenhead, Merseyside",-3.0145,Birkenhead Primary,4,Unicorn Energy Networks,132,11
+PS012,PrimarySubstation,47.26178876473976,true,true,53.45,"St Helens, Merseyside",-2.7373,St Helens Primary,4,Unicorn Energy Networks,132,33
+PS013,PrimarySubstation,51.09269232300714,true,true,53.6476,"Southport, Merseyside",-3.0052,Southport Primary,3,Unicorn Energy Networks,132,33
+PS014,PrimarySubstation,76.5430791431246,true,true,53.445,"Bootle, Merseyside",-2.989,Bootle Primary,4,Unicorn Energy Networks,132,33
+PS015,PrimarySubstation,42.97840428284866,true,true,53.7632,"Preston, Lancashire",-2.7044,Preston Docks Primary,2,Unicorn Energy Networks,132,33
+PS016,PrimarySubstation,75.13763353193025,true,true,53.8175,"Blackpool, Lancashire",-3.0357,Blackpool Primary,4,Unicorn Energy Networks,132,11
+PS017,PrimarySubstation,67.82969384851344,true,true,53.1905,"Chester, Cheshire",-2.8908,Chester Primary,2,Unicorn Energy Networks,132,33
+PS018,PrimarySubstation,82.20591303837116,true,true,53.39,"Warrington, Cheshire",-2.597,Warrington Primary,4,Unicorn Energy Networks,275,33
+PS019,PrimarySubstation,36.546042398303626,true,true,54.9026,"Carlisle, Cumbria",-2.9382,Carlisle North Primary,2,Unicorn Energy Networks,132,11
+PS020,PrimarySubstation,60.98698143611492,true,true,54.1107,"Barrow-in-Furness, Cumbria",-3.2269,Barrow Primary,4,Unicorn Energy Networks,132,33

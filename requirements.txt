@@ -1,0 +1,6 @@
+# AWS SDK
+boto3==1.43.54
+
+# Neptune Analytics - openCypher queries
+# Note: Neptune Analytics uses HTTPS API, not Bolt protocol
+# Query via boto3 neptune-graph client

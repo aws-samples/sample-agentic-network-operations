@@ -1,0 +1,4 @@
+# Workforce Router Lambda Dependencies
+# boto3 is provided by Lambda runtime, but listed here for local development
+
+boto3==1.43.54

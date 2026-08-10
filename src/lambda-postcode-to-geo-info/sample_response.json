@@ -1,0 +1,4 @@
+{
+  "statusCode": 200,
+  "body": "{\"postcode\": \"SW1A 1AA\", \"latitude\": 51.501009, \"longitude\": -0.141588, \"region\": \"London\", \"country\": \"England\", \"parliamentary_constituency\": \"Cities of London and Westminster\"}"
+}

@@ -1,0 +1,5 @@
+{
+  "action": "assign_engineer",
+  "engineer_id": 1,
+  "fault_type": "transformer_failure"
+}

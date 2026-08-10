@@ -1,0 +1,12 @@
+{
+  "environment": "test",
+  "aws_region": "us-east-1",
+  "agentcore_gateway": {
+    "gateway_id": "${AGENTCORE_GATEWAY_ID}",
+    "endpoint": "${AGENTCORE_GATEWAY_ENDPOINT}"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "json"
+  }
+}

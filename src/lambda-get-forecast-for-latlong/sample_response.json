@@ -1,0 +1,4 @@
+{
+  "statusCode": 200,
+  "body": "{\"latitude\": 51.5074, \"longitude\": -0.1278, \"timezone\": \"Europe/London\", \"forecast_summary\": {\"total_precipitation_events\": 12, \"total_high_wind_events\": 8, \"precipitation_events\": [{\"time\": \"2024-03-15T08:00\", \"precipitation_mm\": 2.5}], \"high_wind_events\": [{\"time\": \"2024-03-15T14:00\", \"wind_speed_kmh\": 45.2}], \"daily_summary\": [{\"date\": \"2024-03-15\", \"total_precipitation_mm\": 15.3, \"max_wind_speed_kmh\": 48.5}], \"thresholds\": {\"high_wind_kmh\": 40, \"significant_precipitation_mm\": 2.0}}, \"hourly_data\": {\"time\": [\"2024-03-15T00:00\", \"2024-03-15T01:00\"], \"precipitation_mm\": [0.0, 0.5], \"wind_speed_kmh\": [25.0, 30.0]}}"
+}
