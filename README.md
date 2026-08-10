@@ -1,16 +1,14 @@
-![Example question](image.png)
-
-![Architecture showing AgentCore Runtime and Gateway](AgenticNetworkOperations.png)
-
 # Agentic Operations for the Unicorn Power Electricity Distribution Network
 
-A comprehensive graph database model of a realistic UK electricity distribution network for the North West England region, operated by **Unicorn Energy Networks** (DNO) with retail supply by **Unicorn Power**.
+A comprehensive graph database model of a realistic UK electricity distribution network for the North West England region, operated by the fictional companies **Unicorn Energy Networks** (DNO) with retail supply by **Unicorn Power**.
 
 **Built for AI Agent Demos**: This project uses Amazon Neptune Analytics for serverless graph analytics, optimized for AI agent integration and proof-of-concept demonstrations.
 
 **Demo data notice**: Real town names and coordinates are used only as geographic references. Network, customer, PSR, workforce, and operational records are synthetic. This repository contains no real customer, PSR, or live operational data.
 
 ## Demo questions
+
+![Example question](image.png)
 
 `agentcore invoke '{"prompt":"which primary substations are fed from the grid supply point in cumbria?"}'`
 This demonstrates the agents ability to compose multiple cypher queries from a natural language prompt and to understand the network graph; the agent is not specialised in any way to this task and has no prior knowledge of the graph in the demo code.
@@ -54,6 +52,8 @@ This project models a complete electricity distribution network serving 10,000 p
 Note, the distribution network is entirely synthetic and is for demo'ing capabilities of agents; actual spatial reality such as appropriate physical distance between properties and substations is not well represented.
 
 ## Architecture
+
+![Architecture showing AgentCore Runtime and Gateway](AgenticNetworkOperations.png)
 
 ### Technology Stack
 
